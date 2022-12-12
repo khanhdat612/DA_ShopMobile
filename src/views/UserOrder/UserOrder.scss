@@ -1,0 +1,29 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.product_info {
+  margin: 0px 300px;
+  &_title {
+    h2 {
+      font-size: 25px;
+    }
+  }
+  &_list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+}
+.span_margin {
+  padding: 20px;
+}
+.footer {
+  margin-top: 50px;
+}
+.container_user_order {
+  border-bottom: solid 2px #eee;
+}
+.product_items {
+  // margin: 0px 50px;
+  display: flex;
+}
